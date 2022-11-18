@@ -21,7 +21,7 @@ if (number >= 1000 || number < 100)
 }
 else
 {
-    Console.WriteLine(digit2);
+    Console.WriteLine($"-> {digit2}");
 }
 // If/else нужны только для ручного ввода данных, при системном подходе, 
 // требуется только Console.WriteLine(digit2);.
