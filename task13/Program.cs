@@ -12,7 +12,7 @@
 //ручной ввод
 int anyNumber = new Random().Next();
 System.Console.WriteLine(anyNumber);
-// если долго играть в рулетку, то программа выдаст двузначное число, но что бы не мучаться? можно поставить
+// если долго играть в рулетку, то программа выдаст двузначное число, но что бы не мучаться, можно поставить
 //int anyNumber = new Random().Next(0, 99);
 //или использовать вариант с ручным вводом сверху.
 string anyNumberText = Convert.ToString(anyNumber);
